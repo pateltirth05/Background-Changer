@@ -1,16 +1,37 @@
-# React + Vite
+# Color Switcher App (React)
+A simple React application that allows users to change the background color of the screen by clicking on color buttons.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates React fundamentals, state management, and component-based UI design.
+## Live Demo
+The app displays a set of color buttons at the bottom of the screen.
+Clicking on any button instantly changes the background color.
 
-Currently, two official plugins are available:
+## Tech Stack
+React.js
+JavaScript (ES6+)
+Tailwind CSS
+Vite (for fast development & build)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation & Setup
+Follow these steps to run the project locally:
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1️⃣ Clone the repository
+` git clone https://github.com/your-username/your-repo-name.git`
 
-## Expanding the ESLint configuration
+2️⃣ Navigate to the project folder
+`cd Background-Changer`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3️⃣ Install dependencies
+`npm install`
+
+4️⃣ Start the development server
+`npm run dev`
+
+### What I Learned from This Project
+
+- React component structure
+- Using useState for dynamic UI updates
+- Handling click events in React
+- Writing clean and reusable code
+- Pushing and managing a React project on GitHub

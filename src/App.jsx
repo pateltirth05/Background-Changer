@@ -2,12 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Password from './components/Password'
+
 
 function App() {
   const [color,setColor]=useState('')
-//  localStorage.setItem('user','Tirth')
-//let data=localStorage.getItem('user')
+
   return (
     <>
     <div className='w-full h-screen duration-200' style={{backgroundColor:color}}>
@@ -24,9 +23,7 @@ function App() {
       </div>
 
     </div> 
-    {/* <Password/>
-    <br></br>
-    <h1>{data}</h1> */}
+
     </>
   )
 }
